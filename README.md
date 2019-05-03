@@ -5,7 +5,7 @@ TAPP Group Prettier Configs
 ## Install
 
 ```bash
-$ yarn add --dev @tapp-group/prettier-config
+yarn add --dev @tapp-group/prettier-config
 ```
 
 ## Usage
