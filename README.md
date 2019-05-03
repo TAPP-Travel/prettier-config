@@ -10,11 +10,10 @@ yarn add --dev @tapp-group/prettier-config
 
 ## Usage
 
-Edit `package.json`:
+Add to `package.json`:
 
 ```json
 {
-  // ...
   "prettier": "@tapp.group/prettier-config"
 }
 ```
