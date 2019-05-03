@@ -1,0 +1,16 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "description": "TAPP Group Prettier Config",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TAPP-Travel/prettier-config.git"
+  },
+  "author": "Dan Chen <dchen@tapp.group>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TAPP-Travel/prettier-config/issues"
+  },
+  "homepage": "https://github.com/TAPP-Travel/prettier-config#readme"
+}
