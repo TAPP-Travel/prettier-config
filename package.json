@@ -16,7 +16,11 @@
   "engines": {
     "yarn": "^1.15.2",
     "node": "^10.12.0"
-  },
+	},
+	"scripts": {
+    "format": "yarn prettier --write '**/*.?(ts|tsx|js|jsx|json|md)'",
+    "format:check": "yarn prettier --check '**/*.?(ts|tsx|js|jsx|json|md)'"
+	},
   "devDependencies": {
     "prettier": "^1.17.0"
   }
