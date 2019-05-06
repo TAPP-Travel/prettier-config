@@ -1,6 +1,6 @@
 {
   "name": "@tapp-group/prettier-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "TAPP Group Prettier Config",
   "main": ".prettierrc.json",
   "repository": {
@@ -16,11 +16,11 @@
   "engines": {
     "yarn": "^1.15.2",
     "node": "^10.12.0"
-	},
-	"scripts": {
+  },
+  "scripts": {
     "format": "yarn prettier --write '**/*.?(ts|tsx|js|jsx|json|md)'",
     "format:check": "yarn prettier --check '**/*.?(ts|tsx|js|jsx|json|md)'"
-	},
+  },
   "devDependencies": {
     "prettier": "^1.17.0"
   }
