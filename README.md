@@ -10,21 +10,21 @@ yarn add --dev @tapp-group/prettier-config
 
 ## Usage
 
-Add to `package.json`:
+Create `prettier.config.js`:
 
-```json
-{
-  "prettier": "@tapp.group/prettier-config"
-}
+```js
+module.exports = require("@tapp.group/prettier-config");
 ```
+
+For alternative methods, see [Prettier Docs](https://prettier.io/docs/en/configuration.html#sharing-configurations)
 
 ### Extending configuration
 
-Create `.prettierrc.js` or `prettier.config.js`:
+Edit `prettier.config.js`:
 
 ```js
 module.exports = {
   ...require("@tapp.group/prettier-config"),
-  semi: true
+  printWidth: 120
 };
 ```
